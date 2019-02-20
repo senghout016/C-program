@@ -1,0 +1,40 @@
+#include<stdio.h>
+main()
+{
+	int c=0,b=0;
+	char cha;
+	while (cha!='!')
+	{ 
+	    scanf("%c",&cha);
+		switch(cha)
+		{
+		
+		case 'a':
+		b++;
+		break;
+		case 'e':
+		b++;
+		break;
+		case 'i':
+		b++;
+		break;
+		case 'o':
+		b++;
+		break;
+		case 'u':
+		b++;
+		break;
+		default:
+		c++;
+	}
+		
+	}
+	printf("The number of vowel is:%d\n",b);
+	printf("The number of nonvowel is:%d\n",c);
+	printf("\n");
+	if (b>c)
+	printf("Vowel is bigger than  nonvowel ");
+	else
+	printf("Nonvowel is bigger than vowel:");
+	
+}
