@@ -2,7 +2,7 @@
 main()
 {
 	char ch;
-	int c=0,b=0;
+	int c=0,b=0,d,e;
 	printf("Enter your chioce:");
 
 	
