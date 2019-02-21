@@ -2,7 +2,7 @@
 main()
 {
 	char ch;
-	int c=0,b=0,d,e;
+	int c=0,b=0; //declare variable
 	printf("Enter your chioce:");
 
 	
